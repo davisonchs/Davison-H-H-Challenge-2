@@ -1,0 +1,121 @@
+header.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; 
+  }
+
+  
+.profile {
+    width: 200px; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 50%; 
+  }
+
+.name {
+    position: absolute; 
+    top: 10px; 
+    right: 10px;
+    margin: 0; 
+    font-size: 50px; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+}
+
+header nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;  
+  }
+
+  .links{
+    position: absolute; 
+    top: 5%; 
+    right: 5%;
+    margin: 0; 
+    font-size: 30px; 
+    padding: 5px 10px; 
+    border-radius: 5px;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .about-me {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }  
+  
+  .about-me h2 {
+    color: #444;
+    text-align: center;
+  }
+  
+  .about-me div {
+    margin-top: 10px;
+  }
+  
+  .about-me p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+
+  .work {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .work h2 {
+    color: #444;
+    text-align: center;
+  }
+  
+  .work div {
+    margin-top: 10px;
+  }
+  
+  .work p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+
+  .contact {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .contact h2 {
+    color: #444;
+    text-align: center;
+  }
+  
+  .contact div {
+    margin-top: 10px;
+  }
+  
+  .contact p {
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+
