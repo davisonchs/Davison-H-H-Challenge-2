@@ -1,27 +1,23 @@
-header.image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center; 
-  }
-
-  
 .profile {
-    width: 200px; 
-    height: 200px; 
+    position: relative;
+    top: 20%;
+    left: 43%;
+    width: 350px; 
+    height: 350px; 
     object-fit: cover;
     border-radius: 50%; 
+    margin-top: 20px;
+   
   }
 
 .name {
     position: absolute; 
     top: 10px; 
-    right: 10px;
+    left: 10px;
     margin: 0; 
-    font-size: 50px; 
+    font-size: 60px; 
     padding: 5px 10px; 
-    border-radius: 5px;
+    color:#fff;
 }
 
 header nav{
@@ -32,30 +28,33 @@ header nav{
     text-align: center;  
   }
 
-  .links{
+.links{
     position: absolute; 
-    top: 5%; 
+    top: 0%; 
     right: 5%;
-    margin: 0; 
     font-size: 30px; 
     padding: 5px 10px; 
-    border-radius: 5px;
+  }
+
+  .links a {
+    margin-right: 20px;
   }
 
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-image: linear-gradient(#5fdaff, #feb47b);
   }
   
   .about-me {
+    position: relative;
     background-color: #fff;
     color: #333;
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-image: linear-gradient(#5fdaff, #feb47b);
   }  
   
   .about-me h2 {
@@ -64,13 +63,25 @@ body {
   }
   
   .about-me div {
+    
     margin-top: 10px;
   }
   
   .about-me p {
     line-height: 1.6;
-    margin: 10px 0;
+    margin: 30px 0;
   }
+
+  .about-me-image {
+    position: relative;
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 150px; 
+    height: auto; 
+    margin-top: 10px; 
+    border-radius: 50%;
+ }
 
   .work {
     background-color: #fff;
@@ -78,7 +89,7 @@ body {
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-image: linear-gradient(#5fdaff, #feb47b);
   }
   
   .work h2 {
@@ -95,13 +106,24 @@ body {
     margin: 10px 0;
   }
 
+  .work-image {
+    position: relative;
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 150px; 
+    height: auto; 
+    margin-top: 10px; 
+    border-radius: 50%;
+ }
+
   .contact {
     background-color: #fff;
     color: #333;
     padding: 20px;
     max-width: 800px;
     margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-image: linear-gradient(#5fdaff, #feb47b);
   }
   
   .contact h2 {
@@ -117,5 +139,15 @@ body {
     line-height: 1.6;
     margin: 10px 0;
   }
-  
+
+  .contact-image {
+    position: relative; 
+    top: 0; 
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 150px; 
+    height: auto; 
+    margin-top: 10px; 
+    border-radius: 50%;
+ }
 
